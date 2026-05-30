@@ -1,5 +1,6 @@
 # EmbFilter
-A simple linear filter designed to refine text embeddings.
+Official Implementation for paper "Your Embedding Matrix is secretly a Feature Lens for Text Embeddings".
+This repository introduces a simple, lightweight linear filter designed to refine zero-shot text embeddings.
 
 ### tips
 - recommend: python 3.10, torch==2.6.0, mteb==1.4.0, transformers==4.52.3
