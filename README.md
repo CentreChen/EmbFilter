@@ -1,0 +1,11 @@
+# EmbFilter
+A simple linear filter designed to refine text embeddings.
+
+### tips
+- recommend: python 3.10, torch==2.6.0, mteb==1.4.0, transformers==4.52.3
+- if fail to load `SickrSTS`, change path `MMathematica/sickr-sts` in the mteb package (*/mteb/tasks/STS/en/SickrSTS.py) to `mteb/sickr-sts`
+- if fail to load `MindSmallReranking`, try datasets==2.18 by `pip install datasets==2.18`
+
+### run
+- run the EmbFilter with `python run4qwen_prompteol.py --filter_ratio 2`
+- `filter_ratio` is the ratio of dims to be saved, e.g., `filter_ratio=1` means saving 1/1=100% dims, `filter_ratio=2` means saving 1/2=50% dims, and so on.
