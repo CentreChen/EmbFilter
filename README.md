@@ -1,4 +1,4 @@
-# EmbFilter
+# EmbFilter [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20507711.svg)](https://doi.org/10.5281/zenodo.20507711)
 Official Implementation for paper "Your Embedding Matrix is secretly a Feature Lens for Text Embeddings".
 This repository introduces a simple, lightweight linear filter designed to refine zero-shot text embeddings.
 
