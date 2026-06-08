@@ -11,3 +11,19 @@ This repository introduces a simple, lightweight linear filter designed to refin
 ### run
 - run the EmbFilter with `python run4qwen_prompteol.py --filter_ratio 2`
 - `filter_ratio` is the ratio of dims to be saved, e.g., `filter_ratio=1` means saving 1/1=100% dims, `filter_ratio=2` means saving 1/2=50% dims, and so on.
+
+# Reference
+This paper has informed us a new design for LLM text embedding training, which stays tuned for the release!
+If you find this code useful useful for your research, please cite our paper.
+```
+@misc{wu2026unembeddingmatrixsecretlyfeature,
+      title={Your UnEmbedding Matrix is Secretly a Feature Lens for Text Embeddings}, 
+      author={Songhao Wu and Zhongxin Chen and Yuxuan Liu and Heng Cui and Cong Li and Rui Yan},
+      year={2026},
+      eprint={2606.07502},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.07502}, 
+}
+```
+
